@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JOTresEnRatlla</string>
+    <!-- MainFragment -->
+    <string name="titel_main">Selecciona un nivell</string>
+    <string name="lvl_low">Baix</string>
+    <string name="lvl_medium">Mitjà</string>
+    <string name="lvl_high">Alt</string>
+    <!-- ScoreFragment -->
+    <string name="reload_game">Tornar a Jugar</string>
+</resources>
