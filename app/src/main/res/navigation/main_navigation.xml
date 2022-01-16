@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_mainFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
@@ -38,4 +41,8 @@
             android:id="@+id/action_scoreFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="cat.copernic.jlairinib.ui.settings.SettingsFragment"
+        android:label="SettingsFragment" />
 </navigation>
